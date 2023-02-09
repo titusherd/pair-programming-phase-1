@@ -1,7 +1,7 @@
 [
     {
         "orderNumber": 1,
-        "pickUpLocation": "92932",
+        "pickUpLocation": "1805 Continental Street",
         "date": "2023-02-02",
         "finishedDate": "2023-02-10",
         "totalPrice": 67631,
@@ -13,7 +13,7 @@
     },
     {
         "orderNumber": 2,
-        "pickUpLocation": "58",
+        "pickUpLocation": "29793 Schurz Drive",
         "date": "2023-02-02",
         "finishedDate": "2023-02-11",
         "totalPrice": 17617,
@@ -25,7 +25,7 @@
     },
     {
         "orderNumber": 3,
-        "pickUpLocation": "3",
+        "pickUpLocation": "020 Tennyson Circle",
         "date": "2023-02-07",
         "finishedDate": "2023-02-11",
         "totalPrice": 32218,
@@ -37,7 +37,7 @@
     },
     {
         "orderNumber": 4,
-        "pickUpLocation": "84133",
+        "pickUpLocation": "33 Little Fleur Plaza",
         "date": "2023-02-05",
         "finishedDate": "2023-02-10",
         "totalPrice": 36656,
@@ -49,7 +49,7 @@
     },
     {
         "orderNumber": 5,
-        "pickUpLocation": "70799",
+        "pickUpLocation": "8957 Bobwhite Street",
         "date": "2023-02-06",
         "finishedDate": "2023-02-10",
         "totalPrice": 27614,
@@ -61,7 +61,7 @@
     },
     {
         "orderNumber": 6,
-        "pickUpLocation": "7087",
+        "pickUpLocation": "58 Ryan Plaza",
         "date": "2023-02-02",
         "finishedDate": "2023-02-10",
         "totalPrice": 95197,
@@ -73,7 +73,7 @@
     },
     {
         "orderNumber": 7,
-        "pickUpLocation": "90327",
+        "pickUpLocation": "9 Everett Park",
         "date": "2023-02-07",
         "finishedDate": "2023-02-10",
         "totalPrice": 26116,
@@ -85,7 +85,7 @@
     },
     {
         "orderNumber": 8,
-        "pickUpLocation": "260",
+        "pickUpLocation": "572 Lerdahl Pass",
         "date": "2023-02-01",
         "finishedDate": "2023-02-10",
         "totalPrice": 12225,
@@ -97,7 +97,7 @@
     },
     {
         "orderNumber": 9,
-        "pickUpLocation": "081",
+        "pickUpLocation": "4 Shopko Circle",
         "date": "2023-02-01",
         "finishedDate": "2023-02-09",
         "totalPrice": 87635,
@@ -109,7 +109,7 @@
     },
     {
         "orderNumber": 10,
-        "pickUpLocation": "7136",
+        "pickUpLocation": "3182 Lotheville Point",
         "date": "2023-02-05",
         "finishedDate": "2023-02-11",
         "totalPrice": 59609,

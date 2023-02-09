@@ -22,10 +22,34 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Laundry.init({
-    name: DataTypes.STRING,
-    address: DataTypes.STRING,
-    UserId: DataTypes.INTEGER
-  }, {
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+      validate: {
+        notNull: {
+          msg: "name cannot be null"
+        },
+        notEmpty: {
+          msg: "name cannot be empty"
+        }
+      }
+    },
+    address: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+      validate: {
+        notNull: {
+          msg: "address cannot be null"
+        },
+        notEmpty: {
+          msg: "address cannot be empty"
+        }
+      }
+    },
+      UserId: DataTypes.INTEGER,
+    }, {
     sequelize,
     modelName: 'Laundry',
   });

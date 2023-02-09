@@ -17,12 +17,18 @@ module.exports = (sequelize, DataTypes) => {
       })
       Order.belongsTo(models.Laundry)
     }
+
+    //getter
+    get calculatedDay(){
+      return this.finishedDate.getDay() - this.date.getDay()
+    }
   }
   Order.init({
     orderNumber: DataTypes.INTEGER,
     pickUpLocation: DataTypes.STRING,
     date: DataTypes.DATE,
     finishedDate: DataTypes.DATE,
+    totalPrice: DataTypes.INTEGER,
     weight: DataTypes.INTEGER,
     orderStatus: DataTypes.BOOLEAN,
     paymentStatus: DataTypes.BOOLEAN,
