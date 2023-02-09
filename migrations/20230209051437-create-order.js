@@ -21,6 +21,9 @@ module.exports = {
       finishedDate: {
         type: Sequelize.DATE
       },
+      totalPrice: {
+        type: Sequelize.INTEGER
+      },
       weight: {
         type: Sequelize.INTEGER
       },

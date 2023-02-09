@@ -12,8 +12,10 @@ module.exports = {
     return queryInterface.addColumn('Orders', "LaundryId", {
       type: Sequelize.INTEGER,
       references: {
-        model: "Laundries"
-      }
+        model: "Laundries",
+      },
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE"
     })
 
   },
